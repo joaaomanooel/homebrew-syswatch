@@ -6,15 +6,15 @@ class Syswatch < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/joaaomanooel/syswatch/releases/download/0.0.9/syswatch_0.0.9_darwin_arm64.zip"
+      url "https://github.com/joaaomanooel/syswatch/releases/download/v0.0.9/syswatch_0.0.9_darwin_arm64.zip"
     else
-      url "https://github.com/joaaomanooel/syswatch/releases/download/0.0.9/syswatch__darwin_amd64.zip"
+      url "https://github.com/joaaomanooel/syswatch/releases/download/v0.0.9/syswatch_0.0.9_darwin_amd64.zip"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm64?
-      url "https://github.com/joaaomanooel/syswatch/releases/download//syswatch__linux_arm64.zip"
+      url "https://github.com/joaaomanooel/syswatch/releases/download/v0.0.9/syswatch_0.0.9_linux_arm64.zip"
     else
       url "https://github.com/joaaomanooel/syswatch/releases/download//syswatch__linux_amd64.zip"
     end
